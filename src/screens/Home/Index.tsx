@@ -31,16 +31,16 @@ export default function Home() {
                 <ScrollView>
                     <Text style={styles.text}>Lançamentos</Text>
                     <View style={styles.porductContainer}>
-                        <Shoes img={require('../../assets/img/1.png')} description='Nike Max Air 2' price='199,99'/>
-                        <Shoes img={require('../../assets/img/2.png')} description='Nike DownShifter 10' price='299,99'/>
+                        <Shoes img={require('../../assets/img/1.png')} description='Nike Max Air 2' price='199,90'/>
+                        <Shoes img={require('../../assets/img/2.png')} description='Nike DownShifter 10' price='299,90'/>
                 </View>
                     <View style={styles.porductContainer}>
-                        <Shoes img={require('../../assets/img/3.png')} description='Adias SuperStar' price='239,99'/>
-                        <Shoes img={require('../../assets/img/4.png')} description='Adidas Leaf' price='399,99'/>
+                        <Shoes img={require('../../assets/img/3.png')} description='Adidas Super Star' price='239,90'/>
+                        <Shoes img={require('../../assets/img/4.png')} description='Adidas Leaf' price='369,90'/>
                 </View>
                     <View style={styles.porductContainer}>
-                        <Shoes img={require('../../assets/img/5.png')} description='Adidas Gray Star' price='179,99'/>
-                        <Shoes img={require('../../assets/img/6.png')} description='Adidas Gradient 3' price='299,99'/>
+                        <Shoes img={require('../../assets/img/5.png')} description='Adidas Gray Star' price='179,90'/>
+                        <Shoes img={require('../../assets/img/6.png')} description='Adidas Gradient 3' price='249,90'/>
                     </View>
                 </ScrollView>
         </View>

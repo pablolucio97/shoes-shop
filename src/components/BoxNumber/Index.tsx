@@ -1,10 +1,8 @@
 import React from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 
 interface BoxNumber {
     shoesNumber: number,
-    available: boolean,
-    style: StyleSheet.create
 }
 
  const BoxNumber: React.FC<BoxNumber> = ({
@@ -12,7 +10,9 @@ interface BoxNumber {
  })  => {
     return (
         <View style={styles.mainContainer} >
-            <Text style={styles.text}>{shoesNumber}</Text>
+            <TouchableOpacity activeOpacity={.4}>
+                <Text style={styles.text}>{shoesNumber}</Text>
+            </TouchableOpacity>
         </View>
     )
  }
