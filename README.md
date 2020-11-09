@@ -1,7 +1,7 @@
 # Shoes Shop :shoe:
 
 ## Description
-This application is a small shoes shop representation of an mobile e-commerce. The data are just symbolic.
+This application is a small shoes shop representation of the interface (without api) of a mobile e-commerce. The data are just symbolic.
 
 ## Techs
 - React Native
